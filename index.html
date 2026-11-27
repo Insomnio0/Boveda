@@ -296,6 +296,11 @@ body::before{content:'';position:fixed;inset:-20%;z-index:0;pointer-events:none;
 .cf{position:fixed;top:60%;width:8px;height:12px;z-index:60;pointer-events:none;animation:cf 1.8s cubic-bezier(.2,.7,.3,1) forwards}
 @keyframes cf{60%{opacity:1}to{transform:translate(var(--x),calc(var(--y) + 520px)) rotate(var(--r));opacity:0}}
 @media(prefers-reduced-motion:reduce){body::before,.mas,#chip,#qfab::before,.rip,.cf{animation:none!important}}
+/* ===== Correcciones ===== */
+#lbox4 i.cur{position:relative;top:auto;bottom:auto;margin:0;background:#1d1033;box-shadow:0 0 16px rgba(168,85,247,.7)}
+#bar h1{font-size:21px;white-space:nowrap}
+#bar .ttl small{font-size:12px}
+.big{white-space:normal;overflow-wrap:anywhere;font-size:clamp(22px,7vw,32px);line-height:1.15}
 </style>
 <svg id="shadow" viewBox="-50 -30 100 56" aria-hidden="true"><path d="M-13-6C-22-24-38-24-48-12C-43-9-41-4-42 3C-35-2-29 0-27 8C-22 3-17 5-12 10Z"/><path d="M13-6C22-24 38-24 48-12C43-9 41-4 42 3C35-2 29 0 27 8C22 3 17 5 12 10Z"/><path d="M-15-7L-14-28L-4-18Q0-19 4-18L14-28L15-7C20 8 12 23 0 23C-12 23-20 8-15-7Z"/><ellipse cx="-6" cy="-2" rx="3" ry="4" style="fill:#2e1065"/><ellipse cx="6" cy="-2" rx="3" ry="4" style="fill:#2e1065"/><path d="M-6 8Q0 13 6 8" style="fill:none;stroke:#2e1065;stroke-width:2;stroke-linecap:round"/></svg>
 <div id="app">
